@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 
-const ProteinForm = () => {
+const ProteinForm = (props) => {
   return (
     <Fragment>
       <h1><label htmlFor="protein">Protein</label></h1>
@@ -83,5 +83,6 @@ const ProteinForm = () => {
     </Fragment>
   )
 }
-
 export default ProteinForm
+  
+
